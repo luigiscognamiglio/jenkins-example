@@ -13,10 +13,5 @@ pipeline {
                 echo "Hello World!"
             }
         }
-        stage('stage3') {
-            steps {
-                cmd
-            }
-        }
     }
 }
